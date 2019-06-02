@@ -1,14 +1,5 @@
 module.exports = {
-    presets: [
-        [
-            '@babel/preset-env',
-            {
-                modules: false,
-            },
-        ],
-        '@babel/preset-react',
-        '@babel/preset-flow',
-    ],
+    presets: ['@babel/preset-react', '@babel/preset-flow'],
     plugins: [
         '@babel/plugin-syntax-dynamic-import',
         '@babel/plugin-transform-flow-strip-types',
